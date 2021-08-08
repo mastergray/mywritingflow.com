@@ -53,7 +53,7 @@
   fontSize.addEventListener("change", function (evt) {
     updateSettings("font_size", `${this.value}px`);
     applySettings(exampleText);
-  });href="/index.html"window.localStorage.settings = JSON.stringify(settings);
+  });
 
   // Save settings and redirect back to main page:
   backButton.addEventListener("click", function (evt) {
