@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>mywritingflow.com | Settings</title>
+  <link rel="stylesheet" href="/css/settings.css" />
+</head>
+<body>
+  <h1>Settings</h1>
+  <table>
+    <tr>
+        <td>Text Color</td>
+        <td><input type="color" id="text_color" /></td>
+    </tr>
+    <tr>
+      <td>Background Color</td>
+      <td><input type="color" id="bg_color" /></td>
+    </tr>
+    <tr>
+      <td>Font Type</td>
+      <td>
+        <select id="font_type">
+          <option value="sans-serif">Sans-Serif (Arial, Verdana, Helvetica)</option>
+          <option value="serif">Serif (Times New Roman, Georgia, Garamond)</option>
+          <option value="monospace">Monospace (Courier New, Lucida Console, Monaco)</option>
+          <option value="cursive">Cursive (Brush Script MT, Lucida Handwriting)</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Font Size</td>
+      <td><input type="number" id="font_size" size="2"/></td>
+    </tr>
+  </table>
+  <p id="example_text">The quick brown fox jumps over the lazy fox.</p>
+  <span id="back_button">Done. Back to writing.</span>
+  <script src="/js/settings.js"></script>
+</body>
+</html>

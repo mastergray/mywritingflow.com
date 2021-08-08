@@ -1,0 +1,32 @@
+body {
+  font-family:sans-serif;
+}
+
+#font_size {
+  width:40px;
+}
+
+#example_text {
+  padding:10px;
+}
+
+h1 {
+  border-bottom:1px solid #000;
+  padding:10px;
+  margin-top:0px;
+  font-weight:300;
+}
+
+#back_button {
+  cursor:pointer;
+  color:#000;
+  text-decoration:none;  border:1px;background:#ccc;
+  padding:4px;
+  background:#ccc;
+  border:1px;
+  border-style:outset;
+}
+
+#back_button:hover {
+  opacity:.5;
+}

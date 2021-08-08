@@ -1,0 +1,114 @@
+body {
+  padding:0px;
+  margin:0px;
+}
+
+textarea {
+  /*position:abosolute;*/
+  position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:999;
+    resize: none;
+    outline:none;
+    border:0px;
+    padding:10px;
+    background:#000;
+    color:#fff;
+}
+
+#menu {
+  font-family: sans-serif;
+  position:absolute;
+  top:10px;
+  left:10px;
+  z-index:1000;
+  background:#ccc;
+  width:100px;
+  display:none;
+}
+
+#menu ul {
+  padding:0px;
+  margin:0px;
+  list-style-type:none;
+}
+
+#menu ul li {
+  padding:4px;
+  border:1px;
+  border-style:outset;
+  cursor:pointer;
+}
+
+#menu ul li:hover {
+  opacity:.5;
+}
+
+.fade-in-text {
+  animation: fadeIn linear .25s;
+  -webkit-animation: fadeIn linear .25s;
+  -moz-animation: fadeIn linear .25s;
+  -o-animation: fadeIn linear .25s;
+  -ms-animation: fadeIn linear .25s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}100%;
+}
+right
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.clear-text {
+  animation: swipe linear .75s;
+  -webkit-animation: swipe linear .75s;
+  -moz-animation: swipe linear .75s;
+  -o-animation: swipe linear .75s;
+  -ms-animation: swipe linear .75s;
+}
+
+@keyframes swipe {
+  0% {left:0px;}
+  100% {left:-200%;}
+}
+
+@-moz-keyframes swipe {
+  0% {left:0px;}
+  100% {left:-200%;}
+}
+
+@-webkit-keyframes swipe {
+  0% {left:0px;}
+  100% {left:-200%;}
+}
+
+@-o-keyframes swipe {
+  0% {left:0px;}
+  100% {left:-200%;}
+}
+
+@-ms-keyframes swipe {
+  0% {left:0px;}
+  100% {left:-200%;}
+}
