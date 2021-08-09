@@ -20,6 +20,8 @@
       textArea.value = window.localStorage.text;
     } else {
       window.localStorage.text = "";
+    }
+    if (window.localStorage.settings === undefined) {
       window.localStorage.settings = JSON.stringify({
         "text_color":"#FFFFFF",
         "bg_color":"#000000",
